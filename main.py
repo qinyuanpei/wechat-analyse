@@ -164,6 +164,9 @@ def analyseSignature(friends):
     count_good = len(list(filter(lambda x:x>0.66,emotions)))
     count_normal = len(list(filter(lambda x:x>=0.33 and x<=0.66,emotions)))
     count_bad = len(list(filter(lambda x:x<0.33,emotions)))
+    print(count_good * 100/len(emotions))
+    print(count_normal * 100/len(emotions))
+    print(count_bad * 100/len(emotions))
     labels = [u'负面消极',u'中性',u'正面积极']
     values = (count_bad,count_normal,count_good)
     plt.rcParams['font.sans-serif'] = ['simHei'] 
