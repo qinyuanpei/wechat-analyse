@@ -146,7 +146,7 @@ def analyseSignature(friends):
         font_path='simfang.ttf',
         background_color="white",
         max_words=1200,
-        mask=back_coloring, 
+        #mask=back_coloring, 
         max_font_size=75,
         random_state=45,
         width=960, 
