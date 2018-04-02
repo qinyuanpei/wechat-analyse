@@ -7,10 +7,10 @@ import TencentYoutuyun
 class FaceAPI:
 
     def __init__(self):
-        appid = 'xxxxxxx'
-        userId = 'xxxxxxx'
-        secretId = 'xxxxxxx'
-        secretKey = 'xxxxxxx'
+        appid = '10109383'
+        userId = '875974254'
+        secretId = 'AKIDd3D8rKrzCAsKXXKn8E5i6EAsLYVCuoiP'
+        secretKey = 'ZtwjGYbP1PYT9anmV3MRGrCKDuPffOr4'
         endPoint = TencentYoutuyun.conf.API_YOUTU_END_POINT
         self.youtu = TencentYoutuyun.YouTu(appid, secretId, secretKey, userId, endPoint)
 
